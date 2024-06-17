@@ -127,4 +127,15 @@ To have the same setup as GPL paper, bump remine_hard_negatives_every to a numbe
 
 Trainer saves the models, and logs in the directory that the model was called from. Moreover, hard negatives each refresh, generated queries, and generated qrels are saved in the PATH_TO_BEIR_DATA.
 
+# Expected Results
+
+Running the repo following the comments below with the provided test data should result in 
+
+Before:
+NDCG@10: 0.3388
+
+After:
+
+
+
 
