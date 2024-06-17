@@ -8,7 +8,7 @@ from beir.retrieval import models
 from beir.retrieval.evaluation import EvaluateRetrieval
 import pytrec_eval
 from tensorboard.plugins import projector
-from gpl_improved.trainer.beir_utils_rewritten import DenseRetrievalExactSearch as DRES_new
+from rgpl.trainer.beir_utils_rewritten import DenseRetrievalExactSearch as DRES_new
 
 class RetriverWriter:
     def __init__(self, retriver, output_dir, write_scores = False):
