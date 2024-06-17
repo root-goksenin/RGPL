@@ -5,8 +5,8 @@ For the pretrained models, you can download them using the huggingface repo. Fol
 
 Results for the BEIR and LoTTE sets are below!
 
-![screenshot](BEIR_results.png)
-![screenshot](LoTTE_results.png)
+![screenshot](images/BEIR_results.png)
+![screenshot](images/LoTTE_results.png)
 
  
 # Installation 
