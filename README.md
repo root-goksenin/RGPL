@@ -5,8 +5,8 @@ For the pretrained models, you can download them using the huggingface repo. Fol
 
 Results for the BEIR and LoTTE sets are below!
 
-![screenshot](BEIR_results.png)
-![screenshot](LoTTE_results.png)
+![screenshot](images/BEIR_results.png)
+![screenshot](images/LoTTE_results.png)
 
  
 # Installation 
@@ -131,10 +131,23 @@ Trainer saves the models, and logs in the directory that the model was called fr
 
 Running the repo following the comments below with the provided test data should result in 
 
+```bash
+python3 gpl_query_writer.py data.given_path=test_data/arguana query_writer.queries_per_passage=1
+```
+
+```bash
+python3 gpl_hard_negative_miner.py data.given_path=test_data/arguana```
+```
+
+```bash
+python3 gpl_trainer.py data.given_path=test_data/arguana trainer.t_total=2000 trainer.remine_hard_negatives_every=1000 trainer.batch_size=8
+```
+
 Before:
 NDCG@10: 0.3388
-
 After:
+NDCG@10: 0.3853
+
 
 
 
