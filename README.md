@@ -1,7 +1,13 @@
 # RGPL
 This repository contains the code for paper : [url].
 
-For the pretrained models, you can download them using the huggingface repo. Follow the URL: [URL]. 
+For the pretrained models, you can download them using the huggingface repo. Follow the URL: [URL].
+
+Results for the BEIR and LoTTE sets are below!
+
+![screenshot](BEIR_results.png)
+![screenshot](LoTTE_results.png)
+
  
 # Installation 
 
