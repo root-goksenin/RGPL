@@ -1,0 +1,15 @@
+# main_config.yaml
+defaults:
+  - beir_evaluator
+  - data 
+  - hard_negative_miner
+  - query_writer
+  - trainer
+
+hydra:
+  searchpath:
+    - pkg://config_templates/data
+    - pkg://config_templates/hard_negative_miner
+    - pkg://config_templates/query_writer
+    - pkg://config_templates/trainer
+    - pkg://config_templates/beir_evaluator
